@@ -12,7 +12,7 @@ A wrapper for the hackernews api (https://news.ycombinator.com), to get the stor
 ## Features
 
 ### Nuget
-- https://www.nuget.org/packages/RawgNET
+- https://www.nuget.org/packages/HackernewsNet
 
 ### General
 - Through methods, like ```GetNewStories()```, ```GetTopStories()``` and ```GetBestStories()``` you get Id-Lists, containing the stories

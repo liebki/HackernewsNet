@@ -1,4 +1,4 @@
-# RawgNET
+# HackernewsNet
 The wrapper for the hackernews api (https://news.ycombinator.com), to get the stories, links and more
 
 ```
