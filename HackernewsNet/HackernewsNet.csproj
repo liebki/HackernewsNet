@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>HackernewsNet</Title>
+    <Company>liebki</Company>
+    <Description>A wrapper for the api of https://news.ycombinator.com also known as Hackernews</Description>
+    <Copyright>liebki (the api and data belongs to ycombinator)</Copyright>
+    <PackageProjectUrl>https://github.com/liebki/HackernewsNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/liebki/HackernewsNet</RepositoryUrl>
+    <PackageIcon>uxwing-icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageTags>YCombinator, HackerNews, HN, news, stories, jobs, polls</PackageTags>
+    <PackageReleaseNotes>Created HackernewsNet</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Version>0.1</Version>
+    <Authors>liebki</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="LICENSE.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Update="uxwing-icon.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
